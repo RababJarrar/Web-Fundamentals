@@ -1,0 +1,22 @@
+h1{
+    color: rgb(251, 253, 255);
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+h3{
+    text-align: right;
+    background-color: rgb(158, 214, 236);
+    text-decoration: underline;
+}
+span{
+    color: aqua;
+}

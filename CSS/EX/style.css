@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    background-color: beige;
+}
+
+
+#empha{
+    font-style: italic;
+}
+.color-blue {
+    color: blue;
+
+}
+.color-red {
+    color:red;
+
+}
