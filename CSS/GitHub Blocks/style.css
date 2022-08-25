@@ -1,40 +1,41 @@
 .cover{
    background-color: hwb(84 62% 36% / 0.356);
-   width: 80%;
-   height: 50%;
+   height: 80%;
    padding: 50px;
 }
 h1{
     text-align: center;
-   
+    font-size: 120px; 
 }
-img.b1{
-    height: 200px;
-    flex: 1;
+.b1 img{
+    height: 200px;   
 }
-img.b2{
-    height: 200px;
-    flex: 1;
+.b2 img{
+    height: 200px;   
 }
-img.b3{
-    height: 200px;
-    flex: 1;
+.b3 img{
+   height: 200px;
 }
-.b1{
-    display: flex;
+.b1{   
     background-color: aqua;
-    justify-content: space-between;
-    padding: 50px;
-}
-.b2{
     display: flex;
-    background-color: rgb(235, 150, 197);
-    justify-content: space-evenly;
+    justify-content: space-between ;
+    padding: 40px;
+}
+.b2{   
+    background-color: rgba(235, 150, 197, 0.493); 
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly ;
 }
 .b3{
     display: flex;
+    justify-content: space-between ;
     background-color: rgb(253, 253, 253);
-    justify-content: space-between;
+}
+h6{
+    text-align: center;
+    font-size: 20px; 
 }
