@@ -1,0 +1,16 @@
+.main1 , .main2{
+    background-color: rgb(203, 170, 233);
+    width: 400px;
+    height: 200px;
+}
+.main1left{
+    background-color: azure;
+    flex: 1.5;
+}
+.main1right{
+    background-color: rgb(255, 127, 133);
+    flex: 3;
+}
+.main1{
+    display: flex;
+}
