@@ -34,7 +34,7 @@ header{
         background-color: #2b78e4;
         border: 2px solid black;
         color: white;
-        box-shadow: 3px 3px 0px black;
+        box-shadow: 3px 3px 3px black;
     }
 .main1 , .main2{
     width: 570px;
@@ -55,7 +55,7 @@ header{
         height: 30px;
         width: 90px;
         background-color: #ffd966;
-        box-shadow: 3px 3px 0px black;
+        box-shadow: 3px 3px 3px black;
         font-size: 14px;
       }
 .mainright{
@@ -80,7 +80,7 @@ header{
 .side button{
     height: 40px;
     width: 170px;
-    box-shadow: 3px 3px 0px black;
+    box-shadow: 3px 3px 3px black;
     background-color: #93c47d;
     font-size: 16px;
 }
