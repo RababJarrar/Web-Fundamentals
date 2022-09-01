@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>DojoWeather</h1>
+        <ul>
+            <li onclick="city(this)">Burbank</li>
+            <li onclick="city(this)">Chicago</li>
+            <li onclick="city(this)">Dallas</li>
+        </ul>
+    </nav>
+    <div class="container">
+    <main>
+        <header> 
+            <h2> San Jose</h2>
+            <div class="temp"> show tempreature in 
+                <select onchange="F(this)">
+                    <option >&#8451;</option>
+                    <option >&#8457;</option>
+                     </select> 
+            </div>
+        </header>
+        <div class="middle">
+            <div class="body"><h3>Today</h3> <img src="some_rain.png"><p>some rain</p><div class="num"><p id="numbers1">24&#176</p><span id="numbers5">18&#176</span></div></div>
+            <div class="body"><h3>Tomorrow</h3> <img src="some_sun.png"><p>some sun</p><div class="num"><p id="numbers2">27&#176</p><span id="numbers6">19&#176</span></div></div>
+            <div class="body"><h3>Friday</h3> <img src="some_clouds.png"><p>some clouds</p><div class="num"><p id="numbers3">21&#176</p><span id="numbers7">16&#176</span></div></div>
+            <div class="body"><h3>Saturday</h3> <img src="some_sun.png"><p>some sun</p><div class="num"><p id="numbers4">26&#176</p><span id="numbers8"> 21&#176</span></div></div>
+        </div>
+        
+    </main>
+    <footer id="cookiemessage">
+        <div class="left"> <img src="cookie.png" alt=""></div>
+        <div class="midd">
+        <h3>Stop! Cookie time</h3>
+        <p>We use cookies (sadly not the edible ones) to personalize
+            content and ads, to provide social media features and to
+            analyse our traffic.<a href=""> Read more...</a></p></div>
+        <div class="right"><button onclick="di()">I Accept</button></div>                
+    </footer>
+    </div>
+
+
+ <script src="java.js"></script>   
+</body>
+</html>
