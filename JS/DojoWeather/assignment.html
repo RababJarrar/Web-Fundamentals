@@ -21,17 +21,25 @@
         <header> 
             <h2> San Jose</h2>
             <div class="temp"> show tempreature in 
-                <select onchange="F(this)">
-                    <option >&#8451;</option>
-                    <option >&#8457;</option>
+                <select onchange="temp(value)">
+                    <option value="cel">°C</option>
+                    <option value="feh">°F</option>
                      </select> 
             </div>
         </header>
         <div class="middle">
-            <div class="body"><h3>Today</h3> <img src="some_rain.png"><p>some rain</p><div class="num"><p id="numbers1">24&#176</p><span id="numbers5">18&#176</span></div></div>
-            <div class="body"><h3>Tomorrow</h3> <img src="some_sun.png"><p>some sun</p><div class="num"><p id="numbers2">27&#176</p><span id="numbers6">19&#176</span></div></div>
-            <div class="body"><h3>Friday</h3> <img src="some_clouds.png"><p>some clouds</p><div class="num"><p id="numbers3">21&#176</p><span id="numbers7">16&#176</span></div></div>
-            <div class="body"><h3>Saturday</h3> <img src="some_sun.png"><p>some sun</p><div class="num"><p id="numbers4">26&#176</p><span id="numbers8"> 21&#176</span></div></div>
+            <div class="body"><h3>Today</h3> <img src="some_rain.png"><p>some rain</p>
+                <div class="num"><p id="number1">24</p>°<div><span id="number2">18</span>°</div></div>
+            </div>
+            <div class="body"><h3>Tomorrow</h3> <img src="some_sun.png"><p>some sun</p>
+                <div class="num"><p id="number3">27</p>°<div><span id="number4">19</span>°</div></div>
+            </div>
+            <div class="body"><h3>Friday</h3> <img src="some_clouds.png"><p>some clouds</p>
+                <div class="num"><p id="number5">21</p>°<div><span id="number6">16</span>°</div></div>
+            </div>
+            <div class="body"><h3>Saturday</h3> <img src="some_sun.png"><p>some sun</p>
+                <div class="num"><p id="number7">26</p>°<div><span id="number8"> 21</span>°</div></div>
+            </div>
         </div>
         
     </main>

@@ -84,15 +84,19 @@ header{
    }
    .num{
     height: 35px;
-    width: 100px;
+    width: 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     color: red;
     font-weight: bolder;
+    font-size: large;   
 }
-span{
-    color: rgba(0, 0, 255, 0.774);
+
+    .num div{
+        color: rgba(0, 0, 255, 0.774); 
+        margin-left: 55px;   
 }
+
 
 footer{
     height: 110px;
@@ -101,11 +105,14 @@ footer{
     width: 695px;
     position: fixed;
     top: 480px;
-    left: 325px;
     padding-top: 5px;
     border: 3px solid black;
-    
-
+    margin: 0px auto;
+}
+.container{
+        width: 700px;
+        height: 540px;
+        margin: 0px auto;
 }
 
 footer a{
