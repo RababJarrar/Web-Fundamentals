@@ -12,17 +12,22 @@ result3 = str1.slice(6,10)
 console.log(result3)
 result4 = str1.slice(-7,-1)
 console.log(result4)
-result5 = str1.slice(0,5)
-console.log(result5)
+//result5 = str1.slice(0,5)
+//console.log(result5)
 
-result6 = str1.substring(0,7)
-console.log(result6)
+//result6 = str1.substring(0,7)
+//console.log(result6)
 
-result7= str1.charAt(6)
-console.log(result7)
+//result7= str1.charAt(6)
+//console.log(result7)
 
-result8= str1.split(" ")
-console.log(result8)
+//result8= str1.split(" ")
+//console.log(result8)
 
-
+var str="rabab";
+function reverse(str){
+var x = str.slice((str.length-1)*-1,0);
+console.log(x);
+}
+reverse(str)
 

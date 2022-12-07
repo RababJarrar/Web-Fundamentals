@@ -1,5 +1,7 @@
 function city(element){
-    alert ("Loading weather report...");
+    var x = "Loading weather report for "+element.innerText
+    alert (x);
+    
 }
 function di(){
     var message= document.querySelector("#cookiemessage");

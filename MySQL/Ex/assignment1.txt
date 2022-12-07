@@ -1,0 +1,9 @@
+select * from users where id=2;
+
+insert  into users 
+(first_name,last_name,handle,birthday,created_at, updated_at)
+values('Ahmad','Hasan','anything','1978-08-23',now(),now())
+
+delete from users where id=6
+
+update users set first_name ='Lama' where id =1

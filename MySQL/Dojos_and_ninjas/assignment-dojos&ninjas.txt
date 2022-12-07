@@ -1,0 +1,47 @@
+insert into  dojos
+(name,created_at, updated_at)
+values('Dojo1',now(),now()),
+      ('Dojo2',now(),now()),
+      ('Dojo3',now(),now());
+---------------------------------------------------------------
+delete from dojos;
+---------------------------------------------------------------
+insert into  dojos
+(name,created_at, updated_at)
+values('Dojo4',now(),now()),
+      ('Dojo5',now(),now()),
+      ('Dojo6',now(),now());
+---------------------------------------------------------------
+insert into ninjas
+(first_name,last_name,age,created_at, updated_at,dojo_id) 
+values('Rabab','Jarrar',24,now(),now(),4),
+       ('Mryam','Dabous',28,now(),now(),4),
+       ('Hadeel','Hasan',25,now(),now(),4);
+---------------------------------------------------------------
+insert into ninjas
+(first_name,last_name,age,created_at, updated_at,dojo_id) 
+values('Ruba','Ahmad',24,now(),now(),5),
+       ('Mram','Ali',25,now(),now(),5),
+       ('Lama','Hasan',22,now(),now(),5);
+---------------------------------------------------------------
+insert into ninjas
+(first_name,last_name,age,created_at, updated_at,dojo_id) 
+values('Lana','Jarrar',25,now(),now(),6),
+       ('Noor','ALi',23,now(),now(),6),
+       ('Heba','Hasan',22,now(),now(),6);
+---------------------------------------------------------------
+SELECT * from ninjas
+where dojo_id =4
+---------------------------------------------------------------
+SELECT * from ninjas
+where dojo_id =6
+---------------------------------------------------------------
+select * from dojos
+where id=6
+---------------------------------------------------------------
+select * from dojos
+where id =(select dojo_id from ninjas  order by id desc limit 1)
+
+
+
+
